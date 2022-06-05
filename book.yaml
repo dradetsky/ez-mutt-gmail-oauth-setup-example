@@ -1,0 +1,15 @@
+- name: role test book
+  hosts: all
+  roles:
+    - role: mutt-gmail-oauth
+      # you probably want to edit these
+      vars:
+        # this is the only one you actually need
+        mgo_user: daniel.radetsky
+        # this is relevant sometimes
+        mgo_domain: lark.com
+        # this is optional
+        mgo_custom_rc_file: customrc
+        # these are esoteric and you probably dont want them
+        # mgo_force_set_rootrc: yes
+        # mgo_systemd_start_enable: no

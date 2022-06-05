@@ -1,0 +1,3 @@
+# -*- conf-unix -*-
+
+bind compose p postpone-message

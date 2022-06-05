@@ -1,0 +1,5 @@
+roles:
+  - name: mutt-gmail-oauth
+    src: https://github.com/dradetsky/mutt-gmail-oauth
+    version: master
+    scm: git
