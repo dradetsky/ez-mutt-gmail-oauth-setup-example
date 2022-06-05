@@ -6,6 +6,8 @@
       vars:
         # this is the only one you actually need
         mgo_user: daniel.radetsky
+        # you probably want to set a display name too
+        mgo_fullname: Daniel 'yung termapp god' Radetsky
         # this is relevant sometimes
         mgo_domain: lark.com
         # this is optional
