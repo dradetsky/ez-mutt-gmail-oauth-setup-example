@@ -4,12 +4,16 @@
     - role: mutt-gmail-oauth
       # you probably want to edit these
       vars:
-        # this is the only one you actually need
-        mgo_user: daniel.radetsky
+        # this is the only one you actually need, assuming your email is:
+        #
+        # dmrs.fake.test.account@gmail.com
+        mgo_user: dmrs.fake.test.account
+        # this is relevant if your email is instead
+        #
+        # dmrs.fake.test.account@example.com
+        mgo_domain: example.com
         # you probably want to set a display name too
         mgo_fullname: Daniel 'yung termapp god' Radetsky
-        # this is relevant sometimes
-        mgo_domain: lark.com
         # this is optional
         mgo_custom_rc_file: customrc
         # these are esoteric and you probably dont want them
